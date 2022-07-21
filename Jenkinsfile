@@ -3,7 +3,7 @@ agent any
 stages{
 stage("Build Master"){
 when{
-branch "master"
+branch "main"
 }
 steps{
 echo "Building master"
